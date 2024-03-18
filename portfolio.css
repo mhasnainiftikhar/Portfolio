@@ -53,13 +53,12 @@ header {
   padding-top: 90px;
 }
 .description {
-  padding-bottom: 20px;
+  padding-bottom: 2px;
   color: #344563;
-  -ms-layout-grid: 327px,146px;
   font-family: poppins;
   line-height: 24px;
   text-align: start;
-  margin: 5px 15px;
+  margin: 0px 15px;
 
 }
 .link{
@@ -125,7 +124,8 @@ header {
   font-weight: 700;
   color: #172B4D;
   size: 32px;
-  line-height: 44px;
+  line-height: 20px;
+  padding-left: 14px;
 
 }
 .list{
@@ -221,7 +221,121 @@ header {
    color: #6070FF;
  
 }
+.about{
+  font-weight: 700;
+  size: 40px;
+  line-height: 10px;
+  color: #172B4D;
+  font-family: poppins;
+  display: flex;
+  padding:  13px;
+  background-color: #fff;
+  padding-top: 55px;
+  padding-bottom: 0px;
+}
+.languages{
+  font-family: poppins;
+  size: 20px;
+  line-height: 24px;
+  padding-left: 60px;
+  color: #000;
+}
+.drop{
+  padding-bottom: 5px;
+}
+.java{
+  display: flex;
+  background-color: #f7f7f9;
+  justify-content: space-between;
+  padding-right: 200px;
+  padding-left: 44px;
+  box-sizing: content-box;
+  width: 48px;
+  height: 48px;
+}
+.font{
+  font-family: poppins;
+  font-weight: 500;
+  size: 15px;
+}
+.btn{
+  padding-right: 214px;
 
+}
+
+.form_btn1 {
+  margin: 0 auto;
+  margin-top: 0.7rem;
+  display: block;
+  background-color: white;
+  color: #6070ff;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 0.4rem;
+  text-align: center;
+  font-family: poppins;
+}
+
+.contact_form_container {
+  background-image: url(./asset/Ellipse\ 3.png);
+  background-image: url(./asset/contact\ form\ shapes-mobile@2x.png);
+  margin-top: 80px;
+  background-color: #6070ff;
+  border-top-left-radius: 5.625rem;
+}
+.container_content {
+  display: flex;
+  padding: 20px;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+    margin-top: 70px;
+  }
+  .container_content h1 {
+    margin-top: 6rem;
+    color: white;
+    font-size: 2.5rem;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 3.25rem;
+    font-family: poppins;
+}
+.container_content p {
+    color: white;
+    margin-top: 1rem;
+    font-size: 1.25rem;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 1.75rem;
+    font-family: poppins;
+}
+form {
+    margin-top: 2rem;
+    display: flex;
+    flex-direction: column;
+    gap: 1.5rem;
+}
+form input {
+   font-family: poppins;
+    width: 20.4375rem;
+    height: 3rem;
+    flex-shrink: 0;
+    padding-left: 0.7rem;
+    border-radius: 0.6rem;
+    border: none;
+}
+form textarea {
+    font-family: poppins;
+    width: 19.3rem;
+    height: 10.625rem;
+    flex-shrink: 0;
+    z-index: 1;
+    padding: 1rem 1rem;
+    color: #B3Bac5;
+    border-radius: 0.6rem;
+    border: none;
+}
 
 
 
